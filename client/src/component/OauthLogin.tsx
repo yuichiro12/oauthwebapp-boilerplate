@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import {GoogleSignInButton} from "./GoogleSignInButton";
+import {GoogleOauthButton} from "./GoogleOauthButton";
 
 type Props = {
   className?: string
@@ -9,7 +9,7 @@ type Props = {
 export const OauthLogin: React.FC<Props> = () => {
   return (
     <Root>
-      <GoogleSignInButton/>
+      <GoogleOauthButton/>
     </Root>
   );
 }
